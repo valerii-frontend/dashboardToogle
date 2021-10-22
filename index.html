@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Frontend Mentor | v.lozghachov</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="_container">
+				<div class="grid">
+					<div class="grid__header header">
+						<div class="header__title title">
+							<div class="title__main">Social Media Dashboard</div>
+							<div class="title__small">Total Followers: 354.12m</div>
+						</div>
+						<div class="header__toggle">
+							<input type="checkbox" class="header__checkbox" id="toggle" />
+							<label for="toggle" class="header__label">Dark Mode</label>
+						</div>
+					</div>
+					<div class="grid__main">
+						<div class="box">
+							<a target="_blank" href="https://ru-ru.facebook.com/DwayneJohnson" class="box__link">
+								<span> <img src="./images/icon-facebook.svg" alt="facebook-icon" /></span>@DwayneJohnson</a
+							>
+							<div class="box__counter">58m</div>
+							<div class="box__users">Followers</div>
+							<div class="box__condition"><span class="box__up">12 Today</span></div>
+						</div>
+						<div class="box">
+							<a target="_blank" href="https://twitter.com/TheRock" class="box__link"
+								><span><img src="./images/icon-twitter.svg" alt="twitter-icon" /></span>@TheRock</a
+							>
+							<div class="box__counter">15.4m</div>
+							<div class="box__users">Followers</div>
+							<div class="box__condition"><span class="box__up">99 Today</span></div>
+						</div>
+						<div class="box">
+							<a target="_blank" href="https://www.instagram.com/therock/" class="box__link"
+								><span><img src="./images/icon-instagram.svg" alt="instagram-icon" /></span>@TheRock
+							</a>
+							<div class="box__counter">275m</div>
+							<div class="box__users">Followers</div>
+							<div class="box__condition"><span class="box__up">1099 Today</span></div>
+						</div>
+						<div class="box">
+							<a target="_blank" href="https://www.youtube.com/user/therock" class="box__link"
+								><span><img src="./images/icon-youtube.svg" alt="youtube-icon" /></span>The Rock</a
+							>
+							<div class="box__counter">5.72m</div>
+							<div class="box__users">Subscribers</div>
+							<div class="box__condition"><span class="box__down">144 Today</span></div>
+						</div>
+					</div>
+					<div class="grid__subtitle">Overview - Today</div>
+					<div class="grid__info info">
+						<div class="card">
+							<div class="card__header">
+								<div class="card__title">Page Views</div>
+								<div class="card__icon"><img src="./images/icon-facebook.svg" alt="facebook-icon" /></div>
+							</div>
+							<div class="card__counter">
+								<div class="card__value">87</div>
+								<div class="card__percent"><span class="card__up">3%</span></div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card__header">
+								<div class="card__title">Likes</div>
+								<div class="card__icon"><img src="./images/icon-facebook.svg" alt="facebook-icon" /></div>
+							</div>
+							<div class="card__counter">
+								<div class="card__value">52</div>
+								<div class="card__percent"><span class="card__down">2%</span></div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card__header">
+								<div class="card__title">Likes</div>
+								<div class="card__icon"><img src="./images/icon-instagram.svg" alt="instagram-icon" /></div>
+							</div>
+							<div class="card__counter">
+								<div class="card__value">5462</div>
+								<div class="card__percent"><span class="card__up">2257%</span></div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card__header">
+								<div class="card__title">Profile Views</div>
+								<div class="card__icon"><img src="./images/icon-instagram.svg" alt="instagram-icon" /></div>
+							</div>
+							<div class="card__counter">
+								<div class="card__value">52k</div>
+								<div class="card__percent"><span class="card__up">1375%</span></div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card__header">
+								<div class="card__title">Retweets</div>
+								<div class="card__icon"><img src="./images/icon-twitter.svg" alt="twitter-icon" /></div>
+							</div>
+							<div class="card__counter">
+								<div class="card__value">117</div>
+								<div class="card__percent"><span class="card__up">303%</span></div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card__header">
+								<div class="card__title">Likes</div>
+								<div class="card__icon"><img src="./images/icon-twitter.svg" alt="twitter-icon" /></div>
+							</div>
+							<div class="card__counter">
+								<div class="card__value">507</div>
+								<div class="card__percent"><span class="card__up">553%</span></div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card__header">
+								<div class="card__title">Likes</div>
+								<div class="card__icon"><img src="./images/icon-youtube.svg" alt="youtube-icon" /></div>
+							</div>
+							<div class="card__counter">
+								<div class="card__value">107</div>
+								<div class="card__percent"><span class="card__down">19%</span></div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card__header">
+								<div class="card__title">Total Views</div>
+								<div class="card__icon"><img src="./images/icon-youtube.svg" alt="youtube-icon" /></div>
+							</div>
+							<div class="card__counter">
+								<div class="card__value">1407</div>
+								<div class="card__percent"><span class="card__down">12%</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /__container _container -->
+			<div class="attribution">
+				Challenge by
+				<a target="_blank" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded
+				by
+				<a target="_blank" href="https://www.instagram.com/valerii_from_earth/">v.lozghachov</a>
+			</div>
+		</div>
+		<script>
+			const toggle = document.getElementById("toggle");
+			const html = document.querySelector("html");
+			toggle.addEventListener("change", function (e) {
+				if (toggle.checked) {
+					html.classList.add("light");
+				} else {
+					html.classList.remove("light");
+				}
+			});
+		</script>
+	</body>
+</html>
