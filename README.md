@@ -18,8 +18,9 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5 markup
+- SCSS custom properties
+- BEM methodology
 - Flexbox
 - CSS Grid
 - RWD
