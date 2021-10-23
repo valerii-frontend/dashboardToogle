@@ -17,7 +17,7 @@ Users should be able to:
 ![](./design/desktop-preview.jpg)
 
 ### Preview
-[GitHub pages link](https://valerii-frontend.github.io/dashboardToogle).
+[Social media dashboard with theme switcher (my solution giithub pages link)](https://valerii-frontend.github.io/dashboardToogle).
 
 ### Built with
 
