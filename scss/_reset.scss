@@ -54,12 +54,12 @@ textarea {
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
-	display: flex;
-	flex-direction: column;
 }
 
 ._container {
-	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
 	width: 100%;
 	max-width: 1220px;
 	padding: 0 10px;
@@ -68,6 +68,8 @@ textarea {
 .attribution {
 	flex: 0 1 auto;
 	padding: 10px 0;
+	font-size: 11px;
+	text-align: center;
 	a {
 		transition: 0.3s;
 		opacity: 0.5;
