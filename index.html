@@ -3,9 +3,22 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
 		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 		<link rel="stylesheet" href="css/style.css" />
 		<title>Frontend Mentor | v.lozghachov</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -13,7 +26,7 @@
 				<div class="grid">
 					<div class="grid__header header">
 						<div class="header__title title">
-							<h1 class="title__main">Social Media Dashboard</div>
+							<div class="title__main">Social Media Dashboard</div>
 							<div class="title__small">Total Followers: 354.12m</div>
 						</div>
 						<div class="header__toggle">
@@ -141,21 +154,24 @@
 				</div>
 			</div>
 			<!-- /__container _container -->
-			<footer class="attribution" style="font-size: 11px;text-align: center;">
+			<div class="attribution">
 				Challenge by
-				<a target="_blank" style="color: hsl(228, 45%, 44%);" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded
+				<a target="_blank" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded
 				by
-				<a target="_blank" style="color: hsl(228, 45%, 44%);" href="https://www.instagram.com/valerii_from_earth/">v.lozghachov</a>
-			</footer>
+				<a target="_blank" href="https://www.instagram.com/valerii_from_earth/">v.lozghachov</a>
+			</div>
 		</div>
 		<script>
 			const toggle = document.getElementById("toggle");
 			const html = document.querySelector("html");
+			const switcher = document.querySelector(".header__toggle");
 			toggle.addEventListener("change", function (e) {
 				if (toggle.checked) {
 					html.classList.add("light");
+					switcher.classList.add("_light");
 				} else {
 					html.classList.remove("light");
+					switcher.classList.remove("_light");
 				}
 			});
 		</script>
