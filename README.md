@@ -16,6 +16,9 @@ Users should be able to:
 
 ![](./design/desktop-preview.jpg)
 
+### Preview
+[GitHub pages link](https://valerii-frontend.github.io/dashboardToogle).
+
 ### Built with
 
 - HTML5 markup
