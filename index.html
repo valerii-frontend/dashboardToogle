@@ -3,8 +3,6 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- displays site properly based on user's device -->
-
 		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 		<link rel="stylesheet" href="css/style.css" />
 		<title>Frontend Mentor | v.lozghachov</title>
@@ -13,16 +11,16 @@
 		<main class="wrapper">
 			<div class="_container">
 				<div class="grid">
-					<header class="grid__header header">
-						<div class="header__title title">
-							<h1 class="title__main">Social Media Dashboard</h1>
+					<div class="grid__header header">
+						<header class="header__title title">
+							<div class="title__main">Social Media Dashboard</div>
 							<div class="title__small">Total Followers: 354.12m</div>
-						</div>
+						</header>
 						<div class="header__toggle">
 							<input type="checkbox" class="header__checkbox" id="toggle" />
 							<label for="toggle" class="header__label">Dark Mode</label>
 						</div>
-					</header>
+					</div>
 					<div class="grid__main">
 						<div class="box">
 							<a target="_blank" href="https://ru-ru.facebook.com/DwayneJohnson" class="box__link">
@@ -57,7 +55,7 @@
 							<div class="box__condition"><span class="box__down">144 Today</span></div>
 						</div>
 					</div>
-					<h2 class="grid__subtitle">Overview - Today</h2>
+					<div class="grid__subtitle">Overview - Today</div>
 					<div class="grid__info info">
 						<div class="card">
 							<div class="card__header">
@@ -140,16 +138,16 @@
 							</div>
 						</div>
 					</div>
-				</section>
+				</div>
 			</div>
 			<!-- /__container _container -->
 			<footer class="attribution">
 				Challenge by
-				<a target="_blank" href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. Coded
+				<a target="_blank" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded
 				by
 				<a target="_blank" href="https://www.instagram.com/valerii_from_earth/">v.lozghachov</a>
 			</footer>
-		</div>
+		</main>
 		<script>
 			const toggle = document.getElementById("toggle");
 			const html = document.querySelector("html");
