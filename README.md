@@ -30,4 +30,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [v.lozghachov](https://www.instagram.com/valerii_from_earth/)
+- Website - [v.lozghachov](https://www.linkedin.com/in/valerii-lozghachov-91aa101b9/)
