@@ -18,7 +18,7 @@
 						</header>
 						<div class="header__toggle">
 							<input type="checkbox" class="header__checkbox" id="toggle" />
-							<label for="toggle" class="header__label">Dark Mode</label>
+							<label for="toggle" class="header__label">Light Mode</label>
 						</div>
 					</div>
 					<div class="grid__main">
@@ -152,13 +152,16 @@
 			const toggle = document.getElementById("toggle");
 			const html = document.querySelector("html");
 			const switcher = document.querySelector(".header__toggle");
+			const label = document.querySelector(".header__label");
 			toggle.addEventListener("change", function (e) {
 				if (toggle.checked) {
 					html.classList.add("light");
 					switcher.classList.add("_light");
+					label.textContent = 'Dark Mode';
 				} else {
 					html.classList.remove("light");
 					switcher.classList.remove("_light");
+					label.textContent = 'Light Mode';
 				}
 			});
 		</script>
